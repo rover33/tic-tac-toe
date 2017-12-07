@@ -11,9 +11,8 @@ $("td").click(function() {
         }  
     } 
     
-    
-    
-
 });
 
-
+$('#reset').click(function(){
+    $('.cell').html("");
+});
