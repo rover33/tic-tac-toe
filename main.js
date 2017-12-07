@@ -3,10 +3,10 @@ var counter = 0;
 $("td").click(function() {
     if ($(this).html() == '') {
         if ((counter % 2) == 0) {
-            $(this).html('x');
+            $(this).html('x').css('color', 'purple');
             counter ++;
         } else {
-            $(this).html('o');
+            $(this).html('o').css('color', 'white');
             counter ++;
         }  
     } 
@@ -15,4 +15,5 @@ $("td").click(function() {
 
 $('#reset').click(function(){
     $('.cell').html("");
+    counter = 0;
 });

@@ -13,17 +13,22 @@ table{
 }
 
 td{
-    border: 3px solid green;
+    border: 3px solid purple;
     height: 20vh;
     width: 20vw;
-    color:green;
+    color: white;
     font-weight: bold;
-    font-size: 
+    font-size: 50px;
 }
 
 
 
 h1 {
-    color: green;
+    color: purple;
+    font-size: 50px;
+}
+
+h2 {
+    color: purple;
 }
 
