@@ -1,0 +1,28 @@
+body{
+background-color: black;
+text-align: center;
+
+}
+
+table{
+    margin: auto;
+}
+
+.container{
+
+}
+
+td{
+    border: 3px solid green;
+    height: 20vh;
+    width: 20vw;
+    color:green;
+}
+
+tr{
+}
+
+h1 {
+    color: green;
+}
+
